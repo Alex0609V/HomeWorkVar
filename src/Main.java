@@ -45,10 +45,10 @@ public class Main {
         int bottleMakingMachinePerformanceOneDay = bottleMakingMachinePerformance * 60 * 24;
         int bottleMakingMachinePerformance3days = bottleMakingMachinePerformanceOneDay * 3;
         int bottleMakingMachinePerformancePerOneMonth = bottleMakingMachinePerformanceOneDay * 31;
-        System.out.println("За 20 минут машина произвела  штук бутылок = " + bottleMakingMachinePerformanceTo20Minutes);
-        System.out.println("За день машина произвела  штук бутылок = " + bottleMakingMachinePerformanceOneDay);
-        System.out.println("За 3 дня машина произвела  штук бутылок = " + bottleMakingMachinePerformance3days);
-        System.out.println("За месяц машина произвела  штук бутылок =" + bottleMakingMachinePerformancePerOneMonth);
+        System.out.printf("За 20 минут машина произвела %s штук бутылок " , bottleMakingMachinePerformanceTo20Minutes);
+        System.out.printf("За день машина произвела  %s штук бутылок " , bottleMakingMachinePerformanceOneDay);
+        System.out.printf("За 3 дня машина произвела %s штук бутылок " , bottleMakingMachinePerformance3days);
+        System.out.printf("За месяц машина произвела %s штук бутылок " , bottleMakingMachinePerformancePerOneMonth);
 
         System.out.println(" Задача 5");
         int allCanAmount = 120;
@@ -102,9 +102,9 @@ public class Main {
         System.out.printf("«Маша теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" ,
                 newMashaEmployee ,yerNewMashaEmployee  -  yerMashaEmployee );
         System.out.printf("«Денис теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" , newDenisEmployee,
-                yerNewDenisEmployee - yerDenisEmployee );
-        System.out.printf("«Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей»%n",yerNewKristinaPli,
-                newKristinaEmployee - yerKristinaPli );
+                yerNewDenisEmployee , yerDenisEmployee );
+        System.out.printf("«Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей»%n",newKristinaEmployee,
+                yerNewKristinaPli , yerKristinaPli );
 
     }
 }
