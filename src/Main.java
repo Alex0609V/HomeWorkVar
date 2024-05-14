@@ -3,18 +3,18 @@ public class Main {
 
         System.out.println(" Задача 1");
 
-        byte potato;
-        System.out.println(" potato init ");
-        int apples;
-        System.out.println("apples init ");
-        short carrot;
-        System.out.println(" carrot init ");
-        long pear;
-        System.out.println(" pear init ");
-        float tomato;
-        System.out.println("tomato init " );
-        double cucumber;
-        System.out.println("cucumber init " );
+        byte potato = 67;
+        System.out.println("potato = " + potato);
+        int apples = 27897;
+        System.out.println("apples = " + apples);
+        short carrot = 569;
+        System.out.println("carrot = " + carrot);
+        long pear = 987678965549L;
+        System.out.println("pear = " + pear);
+        int tomato = 159;
+        System.out.println("tomato = " + tomato);
+        double cucumber = 27.12;
+        System.out.println("cucumber = " + cucumber);
 
         System.out.println(" Задача 2");
         potato = 67;
@@ -36,7 +36,8 @@ public class Main {
         int ekAndreevnaStudent = 30;
         long sheets = 480L;
         sheets /= atLyudmilaStudent + anSergeevnaStudent + ekAndreevnaStudent;
-        System.out.println("На каждого ученика рассчитано … листов бумаги =" + sheets );
+        System.out.printf("На каждого ученика рассчитано %s листов бумаги = ", sheets);
+
 
         System.out.println(" Задача 4 ");
         int bottleMakingMachinePerformance = 16 / 2;
@@ -46,7 +47,7 @@ public class Main {
         int bottleMakingMachinePerformancePerOneMonth = bottleMakingMachinePerformanceOneDay * 31;
         System.out.println("За 20 минут машина произвела  штук бутылок = " + bottleMakingMachinePerformanceTo20Minutes);
         System.out.println("За день машина произвела  штук бутылок = " + bottleMakingMachinePerformanceOneDay);
-        System.out.println("За 3 дня  минут машина произвела  штук бутылок = " + bottleMakingMachinePerformance3days);
+        System.out.println("За 3 дня машина произвела  штук бутылок = " + bottleMakingMachinePerformance3days);
         System.out.println("За месяц машина произвела  штук бутылок =" + bottleMakingMachinePerformancePerOneMonth);
 
         System.out.println(" Задача 5");
@@ -86,24 +87,24 @@ public class Main {
         int denisEmployee = 83690;
         int kristinaEmployee = 76230;
 
-        double yerMashaPloyee = mashaEmployee * 12;
+        double yerMashaEmployee = mashaEmployee * 12;
 
-        double yerDenisPloyee = denisEmployee * 12;
+        double yerDenisEmployee = denisEmployee * 12;
         double yerKristinaPli = kristinaEmployee * 12;
 
-        double newMashaPloyee = mashaEmployee * silarePercent;
-        double newDenisPliyee = denisEmployee * silarePercent;
-        double newKristinaPliyee = kristinaEmployee * silarePercent;
+        double newMashaEmployee = mashaEmployee * silarePercent;
+        double newDenisEmployee = denisEmployee * silarePercent;
+        double newKristinaEmployee = kristinaEmployee * silarePercent;
 
-        double yerNewMashaPloyee = newMashaPloyee * 12;
-        double yerNewDenisPloyee = newDenisPliyee * 12;
-        double yerNewKristinaPli = newKristinaPliyee * 12;
+        double yerNewMashaEmployee = newMashaEmployee * 12;
+        double yerNewDenisEmployee = newDenisEmployee * 12;
+        double yerNewKristinaPli = newKristinaEmployee * 12;
         System.out.printf("«Маша теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" ,
-                newMashaPloyee ,yerNewMashaPloyee  -  yerMashaPloyee );
-        System.out.printf("«Денис теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" , newDenisPliyee,
-                yerNewDenisPloyee - yerDenisPloyee );
+                newMashaEmployee ,yerNewMashaEmployee  -  yerMashaEmployee );
+        System.out.printf("«Денис теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" , newDenisEmployee,
+                yerNewDenisEmployee - yerDenisEmployee );
         System.out.printf("«Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей»%n",yerNewKristinaPli,
-                newKristinaPliyee - yerKristinaPli );
+                newKristinaEmployee - yerKristinaPli );
 
     }
 }
