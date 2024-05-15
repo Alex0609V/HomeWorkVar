@@ -99,11 +99,11 @@ public class Main {
         double yerNewMashaEmployee = newMashaEmployee * 12;
         double yerNewDenisEmployee = newDenisEmployee * 12;
         double yerNewKristinaPli = newKristinaEmployee * 12;
-        System.out.printf("«Маша теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" ,
+        System.out.printf("«Маша теперь получает %.1f рублей. Годовой доход вырос на %.1f рублей»%n" ,
                 newMashaEmployee ,yerNewMashaEmployee  -  yerMashaEmployee );
-        System.out.printf("«Денис теперь получает %s рублей. Годовой доход вырос на %s рублей»%n" , newDenisEmployee,
+        System.out.printf("«Денис теперь получает %.1f рублей. Годовой доход вырос на %.1f рублей»%n" , newDenisEmployee,
                 yerNewDenisEmployee , yerDenisEmployee );
-        System.out.printf("«Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей»%n",newKristinaEmployee,
+        System.out.printf("«Кристина теперь получает %.1f рублей. Годовой доход вырос на %.1f рублей»%n",newKristinaEmployee,
                 yerNewKristinaPli , yerKristinaPli );
 
     }
